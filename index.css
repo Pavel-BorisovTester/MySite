@@ -1,0 +1,129 @@
+#gradient {
+    background: #A5A8A6;
+    background: -moz-radial-gradient(center, ellipse cover, #A5A8A6);
+    background: -webkit-linear-gradient(top, #A5A8A6);
+    background: -o-linear-gradient(top, #A5A8A6);
+    background: -ms-linear-gradient(top, #A5A8A6);
+}
+
+.shripht {
+    font-size: 25px;
+}
+
+.otstup {
+    padding-bottom: 5px;
+}
+
+.column {
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    -webkit-column-rule: 3px solid rgb(243, 7, 7);
+    -moz-column-rule: 3px solid rgb(243, 7, 7);
+    column-rule: 3px solid rgb(243, 7, 7);
+}
+
+.leftimg {
+    float: left;
+    margin: 5px 16px 100px 16px;
+}
+
+.rightimg {
+    float: right;
+    margin: 5px 16px 100px 16px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.shadowbox1 {
+    width: 18em;
+    border: 1px solid rgba(51, 51, 51, 0.596);
+    padding: 0px 5px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    position: right;
+    margin: auto;
+}
+
+.ok {
+    background: #df922f;
+    font-family: Tahoma;
+    color: #ffffff;
+    border: 2%;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    position: left;
+    bottom: 2%;
+    right: 37%;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    text-transform: auto;
+}
+
+.ok:hover {
+    color: #fff;
+    background: #48A43F;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+}
+
+.news li {
+    list-style-image: url(Images/x5-1.png);
+    font-size: 100%;
+    padding-left: 5px;
+}
+
+.second {
+    font-size: 35px;
+}
+
+
+/*страница 1*/
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.6);
+}
+
+.step {
+    font-size: 20px;
+}
+
+.otstup {
+    padding-bottom: 5px;
+}
+
+.leftimg {
+    float: left;
+    margin: 5px 16px 16px 65px;
+}
+
+.image-center {
+    display: block;
+    margin: auto;
+}
+
+.class2 {
+    font-size: 40px;
+    margin: 0px 0px 20px 55px;
+}
+
+.class3 {
+    font-size: 20px;
+    margin: 0px 0px 20px 55px;
+}
